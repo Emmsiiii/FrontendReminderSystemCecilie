@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+
+<body>
+    <style>
+        *{
+  
+            margin:0;
+            padding:0;
+            outline:none;
+            text-decoration:none;
+            list-style:none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+           
+            
+          }
+          body{
+            padding-top:50px;
+            justify-content:center;
+            background-color: rgb(243, 243, 237);
+            transform:scale(0.8) translateY(-50px);
+            display: grid;
+            padding-bottom: 30px;
+            }
+          
+          
+        
+          
+          .timeline{
+          background:rgb(221, 237, 227);
+          mix-blend-mode: normal;
+          backdrop-filter: blur(15px);
+          overflow:hidden;
+          top:144px;
+          margin-left:71px;
+          box-shadow: 0px 20px 53px -30px rgba(95, 102, 173, 0.566816);
+          border-radius: 10px;
+          padding-top:100px;
+          width: 100%;
+          float: left;
+          position: absolute;
+          
+          
+          }
+            
+          h2 {
+          font-weight: bold;
+          font-size: 40px;
+          line-height: 30px;
+          color:  #2B2862;
+          margin-left:66px;
+          margin-top:40px;
+          text-align: center;
+          
+          
+          
+        
+            }
+              .container{
+                display: flex;
+                
+    
+              }
+          
+                .lines{
+                  margin-left:40px;
+                  margin-top:6px;
+                  
+                }
+                  .dot{
+                    width:14px;
+                    height:14px;
+                    background: #D1D6E6;
+                    border-radius:7px;
+                  }
+                  
+                  .line{
+                    height:160px;
+                    width:4px;
+                    background: #D1D6E6;
+                    margin-left:5.3px;
+                  }
+                
+                .cards{
+                  width: 70%;
+                  height: 80%;
+                  margin-left:12px;
+                  transform:translateY(-50px);
+                  text-align: center;
+                  display: grid;
+                  padding-top:50px;
+
+                }
+                .card{
+                width: 70%;
+                height: 80%;
+                padding-top:25px;
+                background: #FFFFFF;
+                box-shadow:0 2px 2px 0  #eeeeee40;
+                border-radius: 10px;
+                text-align: center;
+                box-shadow: 0px 16px 15px -10px rgba(105, 96, 215, 0.0944602);
+                margin-bottom:10px;
+                    
+                  }
+                    
+          h4{            
+          font-size: 14px;
+          line-height: 19px;
+          margin-left:25px;
+          margin-bottom:5px;
+          color: #2B2862;
+          
+        }
+                    
+        p{
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        width:100%;
+        height:107px;
+        color: #2B2862;
+        margin-left:25px;
+              
+              }
+     
+#phoneNumber{
+   height:40px;
+   text-align: center;
+   font-size: 14px;
+   padding: 40px;
+   color:black;
+   padding: 14px 20px;
+   width: 110%;
+   margin: 10px 0;
+   border: 2px solid white;
+   border-radius: 25px;
+}
+     
+#btn-send{
+    text-align: center;
+    font-size: 14px;
+    width: 60%;
+    padding: 10px 10px;
+    background-color: darkcyan;
+    color: white;
+    margin: 10px 0;
+    margin-left: 90px;
+           
+ }
+ .button{
+  margin-right: 20%;
+  padding-top: 10%;   
+ }
+
+
+ 
+
+
+     </style>
+
+<body>
+<h2> Reminder til forsøgsperson</h2>  
+</div>
+  
+  
+<div class="timeline">
+
+    <div class="container">
+      
+      <div class="lines">
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+      </div>
+      
+     
+      <div class="cards">
+         <div class="card">
+    
+
+          <h4>16:30</h4>
+          <p> Dag 1: Husk at </p>
+        </div>
+        <div class="card mid">
+          <h4>15:22</h4>
+          <p> Dag 2: Husk at </p>
+        </div>
+        <div class="card">
+          <h4>14:15</h4>
+          <p> Dag 3: Husk at </p>
+        </div>
+        <div class="card">
+            <h4>14:15</h4>
+            <p> Dag 4: Husk at </p>
+          </div>
+          <div class="card">
+            <h4>14:15</h4>
+            <p> Dag 5: Husk at </p>
+          </div>
+          <div class="card">
+            <h4>14:15</h4>
+            <p> Dag 6: Husk at </p>
+          </div>
+      </div>
+
+      <div class="button">
+        <input type="text" id="phoneNumber" name="telefon" placeholder="Indtast telefon nr."> 
+        <input onClick="sub" type="submit" id="btn-send" value="Send">
+    </div>
+  </div>
+</div>
+</div>
+
+
+  
+
+
+</body>
+</html>
